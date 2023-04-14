@@ -1,0 +1,16 @@
+.first {
+    background-color: yellow;
+    width: 600px;
+    height: 400px;
+}
+
+.second {
+    background-color: pink;
+    width: 400px;
+    height: 250px;
+}
+
+.highlight-text {
+    color: dimgray;
+    font-size: 30px;
+}
