@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    /* height: 100%; */
 }
 
 body {
@@ -149,6 +149,27 @@ p{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
 }
 
+.mybutton:hover{
+    background-color:lightpink;
+    color: black;
+    transition-duration: 0.3s;
+}
+
 .herobox2 img{
     border-radius: 12px;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
