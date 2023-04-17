@@ -1,10 +1,12 @@
 html {
     /* height: 100%; */
+    background-image: linear-gradient(#FC5E55, #FA4083);    
 }
 
 body {
-    background-image: linear-gradient(#FC5E55, #FA4083);
-    /* font-family: Arial, Helvetica, sans-serif; */
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;
     font-size: 1.125rem ;
     color: white;
@@ -33,9 +35,38 @@ header {
 }
 
 .navbar {
-    flex: 1;
+    flex: 2;
     text-align: center;
     padding-bottom: 10px;
+}
+
+.navButton{
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navButton:hover .dropdown{
+    display: block;
+}
+
+.dropdown .navButton{
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navButton a{
+    color: #FA4083;
 }
 
 a {
@@ -51,6 +82,11 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
 }
 
 .herobox1 {
