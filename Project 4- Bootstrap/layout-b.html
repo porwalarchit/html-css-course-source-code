@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Layout- Part 2</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .mybox1 {
+            background-color: tomato;
+            min-height: 200px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+        .mybox2 {
+            background-color: springgreen;
+            min-height: 200px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+
+        .mybg1{
+            background-color: darkslategray;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid mybg1 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="w-25">
+                    <div class="mybox1">LOGO</div>
+                </div>
+                <nav class="w-75 ">
+                    <div class="mybox1">NAVIGATION</div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mybox1">
+                    <p class="m-5 m-md-0 m-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam distinctio expedita facilis illo? Ut alias sint esse error cumque ducimus, harum minus voluptas ad veritatis nihil dolore doloribus necessitatibus labore dolor quisquam laboriosam aperiam ea rem commodi placeat. Reprehenderit rerum, tempore eos sequi ab sint illo cum voluptatibus quasi Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magni, labore, neque libero accusamus adipisci fugiat perspiciatis obcaecati culpa similique animi nesciunt provident. Ut omnis quo architecto! Magni rem asperiores explicabo pariatur dolores est tempore voluptatum vel praesentium dolor molestias, suscipit, et sit porro, accusantium id ea sed. Velit, expedita?</p>
+
+                    <div class="row">
+                        <div class="col mybox2 mx-4">NEST 1</div>
+                        <div class="col mybox2 mx-4">NEST 2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mybox1">Feature 1</div>
+            </div>
+            <div class="col">
+                <div class="mybox1"> Feature 2</div>
+            </div>
+            <div class="col">
+                <div class="mybox1">Feature 3</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
