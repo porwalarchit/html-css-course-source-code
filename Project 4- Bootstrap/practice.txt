@@ -1,0 +1,10 @@
+// The below container is used to resize the div's using different options like 'col-lg-10', 'col-sm-3', etc.
+// They will resize the div's as per the window size.
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10 col-sm-3 col-6">ONE</div>
+        <div class="col-lg-1 col-sm-4 col-6">TWO</div>
+        <div class="col-lg-1 col-sm-4 col-6">THREE</div>
+    </div>
+</div>
